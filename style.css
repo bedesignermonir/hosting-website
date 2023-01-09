@@ -37,3 +37,51 @@
     border-right: 1px solid #5b9029;
     padding: 0px 25px;
 }
+
+/* Banner seciton style */
+
+.logo {
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.logo-color {
+    color: #87D83D;
+}
+
+
+
+.nav-bar-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.nav-bar-ul {
+    display: flex;
+}
+
+.nav-bar-ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-button {
+    border: none;
+    background: none;
+
+}
+
+.view-card-button {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: none;
+    border: 1px solid #87D83D;
+    padding: 5px 20px;
+}
+
+/* logo nav bar section */
