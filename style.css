@@ -119,3 +119,31 @@
 }
 
 /* navigation section */
+
+.hero-section {
+    background-image: url(icons/cover\ image.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.hero-text {
+    color: white;
+}
+
+.start-now-button {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: none;
+    border: 1px solid #87D83D;
+    padding: 5px 20px;
+    color: white;
+}
+
+/* hero section */
