@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    background-color: #87D83D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner li {
+    list-style: none;
+    color: white;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.banner-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon {
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.banner-button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.lr-button {
+    border-left: 1px solid #5b9029;
+    border-right: 1px solid #5b9029;
+    padding: 0px 25px;
+}
