@@ -85,3 +85,37 @@
 }
 
 /* logo nav bar section */
+
+.navigation-sec {
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    justify-content: space-between;
+}
+
+.navi-list {
+    display: flex;
+    align-items: center;
+}
+
+.navi-list li {
+    list-style: none;
+    padding: 10px 20px;
+
+
+}
+
+.navi-list a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.search-icon {
+    /* padding: 0px 30px; */
+    background-color: #87D83D;
+    padding: 15px 15px;
+    margin-right: 50px;
+
+}
+
+/* navigation section */
