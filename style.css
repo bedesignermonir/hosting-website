@@ -93,6 +93,15 @@
     justify-content: space-between;
 }
 
+.navi-list li:hover {
+    background-color: #87D83D;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 .navi-list {
     display: flex;
     align-items: center;
@@ -117,6 +126,8 @@
     margin-right: 50px;
 
 }
+
+
 
 /* navigation section */
 
@@ -146,4 +157,77 @@
     color: white;
 }
 
+.start-now-button:hover {
+    background-color: #87D83D;
+
+}
+
 /* hero section */
+
+.reg-domain-section {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.input {
+    padding: 20px 0px;
+}
+
+.input input {
+    width: 300px;
+    height: 36px;
+    border: 1px solid #87D83D;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.domain-option {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #87D83D;
+    position: relative;
+    right: 10px;
+}
+
+.domain {}
+
+.domain-ext {}
+
+.reg-domain-button {
+    border: none;
+    background-color: #87D83D;
+    position: relative;
+    right: 15px;
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.domain-list {
+    background-color: #F5F5F5;
+    margin: 20px 100px;
+}
+
+.domain-list-item {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.domain-list li {
+    list-style: none;
+
+}
+
+.domain-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.small-text {
+    font-size: 7px;
+}
+
+/* register Doamin */
