@@ -352,3 +352,41 @@
 }
 
 /* review Section */
+footer {
+    background-color: #333333;
+    padding: 60px 50px;
+}
+
+.footer-lists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.footer-list li {
+    list-style: none;
+    position: relative;
+    right: 40px;
+}
+
+.quicklink {
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.email-box {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+}
+
+.quicklink button {
+    color: black;
+}
+
+/* complete */
