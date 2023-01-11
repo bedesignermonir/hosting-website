@@ -318,3 +318,37 @@
 }
 
 /* our service */
+
+.ad-section {
+    text-align: center;
+    background-color: honeydew;
+    padding: 50px 400px;
+}
+
+.get-touch-class {
+    text-decoration: none;
+    color: #87D83D;
+}
+
+/* ad section */
+.review-section {
+    padding: 100px 50px;
+    text-align: center;
+
+}
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: honeydew;
+    padding: 50px 0px;
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+.review h2 {
+    font-size: 50px;
+}
+
+/* review Section */
