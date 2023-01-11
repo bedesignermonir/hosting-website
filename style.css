@@ -167,6 +167,11 @@
 
 }
 
+.start-now-button:active {
+    background-color: white;
+    color: black;
+}
+
 /* hero section */
 
 .reg-domain-section {
