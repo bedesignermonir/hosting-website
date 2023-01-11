@@ -286,3 +286,35 @@
 }
 
 /* popular pricing package */
+
+.service-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.service-card-1 {
+    margin: 0px 30px;
+    background-color: #F5F5F5;
+    box-shadow: 1px 1px 5px lightgray;
+    padding: 50px 30px;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: -5px -4px 8px gray;
+    padding: 50px;
+    background-color: white;
+
+}
+
+/* our service */
