@@ -237,7 +237,47 @@
 }
 
 .small-text {
-    font-size: 7px;
+    font-size: 10px;
 }
 
 /* register Doamin */
+.popular-pack {
+    text-align: center;
+    background-color: rgb(238, 235, 235);
+    padding: 50px;
+}
+
+.pack-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pack-card-1 {
+    margin: 0px 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgray;
+
+}
+
+.pack-text {
+    padding: 20px 0px;
+    background-color: #88d83d4f;
+
+}
+
+.pack-details li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.pack-price {
+    padding: 20px 0px;
+    background-color: lightgray;
+}
+
+.card-button {
+    color: black;
+    margin: 20px 0px;
+}
+
+/* popular pricing package */
